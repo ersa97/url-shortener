@@ -1,0 +1,9 @@
+### add new url
+POST http://localhost:3030/add
+
+{
+    "target":"www.google.com"
+}
+
+### get url target
+GET http://localhost:3030/fetch?short=bit.ly/316
